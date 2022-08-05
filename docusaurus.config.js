@@ -206,7 +206,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} IUDX.`
+				copyright: `© ${new Date().getFullYear()} IUDX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
