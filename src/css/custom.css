@@ -62,6 +62,9 @@
   .place span{
     color: #606770;
   }
+  .place a:hover{
+    text-decoration: none;
+  }
 
   .logo{
     margin-bottom: 2rem;
