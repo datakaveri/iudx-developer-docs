@@ -13,7 +13,7 @@ const config = {
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/icon.ico',
+	favicon: 'img/favicon.ico',
 	organizationName: 'IUDX', // Usually your GitHub org/user name.
 	projectName: 'IUDX', // Usually your repo name.
 
@@ -134,11 +134,12 @@ const config = {
                           />
                         </a>
                         <div class="place">
-                          <a href="https://goo.gl/maps/MyKzgG2gzK1JsENz7" target="_blank">
+                          <a href="https://goo.gl/maps/sHqNUTRGFDmD2kbX8" target="_blank">
                             <img src="img/location.png" />
                             <span>
-                              Indian Institute of Science, Entrepreneurship Centre,
-                              Ground Floor, Bengaluru, Karnataka 560012
+							Ground Floor, Indian Institute of Science,<br>
+							Entrepreneurship Centre Road, Entrepreneurship Centre,<br>
+							Bengaluru, Karnataka 560012
                             </span>
                           </a>
                         </div>
@@ -206,7 +207,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} IUDX.`
+				copyright: `© ${new Date().getFullYear()} IUDX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
@@ -226,4 +227,3 @@ const config = {
 };
 
 module.exports = config;
-
