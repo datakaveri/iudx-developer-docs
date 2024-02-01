@@ -63,6 +63,16 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Try IUDX',
+    link:"../../docs/deployment/prerequisites",
+    Svg: require('../../static/img/getting_started.svg').default,
+    description: (
+      <>
+        Try IUDX deployment locally using Docker and Kubernetes     
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, link, title, description}) {

@@ -7,7 +7,7 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'IUDX Documentation',
+	title: 'IUDX documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with IUDX',
 	url: 'https://docs.iudx.org.in/',
 	baseUrl: '/',
@@ -47,6 +47,7 @@ const config = {
 			hideOnScroll: true,
 			navbar: {
 				title: '',
+	
 				logo: {
 					alt: 'My Site Logo',
 					src: 'img/iudx_logo.png'
@@ -55,7 +56,7 @@ const config = {
 					{
 						type: 'dropdown',
 						label: 'Who Are You',
-						position: 'left',
+						position: 'right',
 						items: [
 							{
 								label: 'New User',
