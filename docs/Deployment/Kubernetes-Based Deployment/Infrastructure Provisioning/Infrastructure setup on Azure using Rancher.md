@@ -172,81 +172,84 @@ The resource plan for various IUDX components and the corresponding vm  is prese
 6. Once created, active nodes will automatically be added to the Rancher cluster. (Atleast 1 master node is required for the cluster to be provisioned)
     
 
-**Create Storage Containers and S3 bucket**
+**Create Storage Containers and azure blob storage**
     
-1. Create S3 bucket and IAM user for async query
-    1. Follow the document available [here](link_to_s3_bucket_creation_document) to create an AWS S3 bucket.
-    2. Create IAM User with Policy
+1. Create Azure Blob Storage container and Azure AD user for async query
+    1. Follow the document available [here]**(https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)**.
+    2. Create an Azure AD user with necessary roles and permissions
 
-Create an IAM user with the following policy:
-
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [{
-   		 "Action": [
-   			 "s3:ListBucket",
-   			 "s3:GetBucketLocation",
-   			 "s3:ListBucketMultipartUploads",
-   			 "s3:ListBucketVersions",
-   			 "s3:ListBucketMultipartUploads"
-   		 ],
-   		 "Effect": "Allow",
-   		 "Resource": [
-   			 "arn:aws:s3:::<rs-async-bucket-name>"
-   		 ]
-   	 },
-   	 {
-   		 "Action": [
-   			 "s3:GetObject",
-   			 "s3:PutObject",
-   			 "s3:DeleteObject",
-   			 "s3:AbortMultipartUpload",
-   			 "s3:ListMultipartUploadParts"
-   		 ],
-   		 "Effect": "Allow",
-   		 "Resource": [
-   			 "arn:aws:s3:::<rs-async-bucket-name>/*"
-   		 ]
-   	 }
-    ]
-}
-```
-2. Follow the document available here to create an AWS S3 bucketCreate S3 bucket and IAM user for Elasticsearch snapshots
-    1. Follow the document available here to create an AWS S3 bucket
-    2. Create an IAM user with the following policy:
-
+Create an Azure RBAC custome policy the following permission:
 
 ```
 {
-    "Version": "2012-10-17",
-    "Statement": [{
-   		 "Action": [
-   			 "s3:ListBucket",
-   			 "s3:GetBucketLocation",
-   			 "s3:ListBucketMultipartUploads",
-   			 "s3:ListBucketVersions"
-   		 ],
-   		 "Effect": "Allow",
-   		 "Resource": [
-   			 "arn:aws:s3:::<elastic-bucket-name>"
-   		 ]
-   	 },
-   	 {
-   		 "Action": [
-   			 "s3:GetObject",
-   			 "s3:PutObject",
-   			 "s3:DeleteObject",
-   			 "s3:AbortMultipartUpload",
-   			 "s3:ListMultipartUploadParts"
-   		 ],
-   		 "Effect": "Allow",
-   		 "Resource": [
-   			 "arn:aws:s3:::<elastic-bucket-name>/*"
-   		 ]
-   	 }
-    ]
+    "properties": {
+        "roleName": "CustomBlobRoleForAsyncBucket",
+        "description": "Custom role to manage specific blob storage actions for the async bucket",
+        "assignableScopes": [
+            "/subscriptions/<SubscriptionID>/resourceGroups/<name>"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Resources/subscriptions/resourcegroups/resources/read,
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/delete",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/write"
+                ],
+                "notActions": [],
+                "dataActions": [
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/move/action",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/add/action"
+                ],
+                "notDataActions": []
+            }
+        ]
+    }
 }
+
+```
+2. Follow the document available here to create an Azure blob storage and Azure AD user for Elasticsearch snapshots
+    1. Follow the document available [here]**(https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)** .
+    2. Create an Azure AD user with necessary roles and permissions
+
+
+```
+{
+    "properties": {
+        "roleName": "CustomBlobRoleForAsyncBucket",
+        "description": "Custom role to manage specific blob storage actions for the async bucket",
+        "assignableScopes": [
+            "/subscriptions/<SubscriptionID>/resourceGroups/<name>"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Resources/subscriptions/resourcegroups/resources/read,
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/delete",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/write"
+                ],
+                "notActions": [],
+                "dataActions": [
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/move/action",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/add/action"
+                ],
+                "notDataActions": []
+            }
+        ]
+    }
+}
+
 ```
 Create access keys for both IAM users for use in the installation steps of ResourceServer and ElasticSearch.
 
