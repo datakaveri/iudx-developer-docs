@@ -44,7 +44,7 @@ The resource server proxy is Data Exchange data discovery portal. The consumers 
     - CPU of rs-proxy 
     - RAM of rs-proxy
     - PID limit of rs-proxy
-    in `rs-proxy-stack.resources.yaml` as shown in sample resource-values file for [here](example-rs-proxy-stack.resources.yaml)
+    in `rs-proxy-stack.resources.yaml` as shown in sample resource-values file for [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/rs-proxy/example-rs-proxy-stack.resources.yaml)
 
 5. Deploy resource server proxy:
 ```sh
@@ -60,7 +60,7 @@ The apis documentation will be available at
 
 1. The upstream code for resource server is available at [here](https://github.com/datakaveri/iudx-rs-proxy).
 
-2. If you need to expose the HTTP ports or have custom stack configuration( see [here](example-rs-proxy-stack.custom.yaml) for example configuration of 'rs-proxy-stack.custom.yaml' file)  and bring up like as follows.
+2. If you need to expose the HTTP ports or have custom stack configuration( see [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/rs-proxy/example-rs-proxy-stack.custom.yaml) for example configuration of 'rs-proxy-stack.custom.yaml' file)  and bring up like as follows.
 
 ```sh
 docker stack deploy -c rs-proxy-stack.yaml -c rs-proxy-stack.resources.yaml -c rs-proxy-stack.custom.yaml rs-proxy

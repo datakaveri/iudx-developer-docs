@@ -48,7 +48,7 @@ The onboarding server is IUDX's helper server for onboarding items, instances an
     - CPU 
     - RAM 
     - PID limit 
-    in `onboarding-server-stack.resources.yaml` as shown in sample resource-values file for [here](example-onboarding-server-stack.resources.yaml)
+    in `onboarding-server-stack.resources.yaml` as shown in sample resource-values file for [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/onboarding-server/example-onboarding-server-stack.resources.yaml)
 
 5. Deploy onboarding server stack:
 
@@ -63,7 +63,7 @@ The apis documentation will be available at  `https://<onboarding-server-domain-
 
 1. The upstream code for onboarding server is available at [here](https://github.com/datakaveri/iudx-onboarding-server).
 
-2. If you need to expose the HTTP ports or have custom stack configuration( see [here](example-onboarding-server-stack.custom.yaml) for example configuration of 'onboarding-stack.custom.yaml' file)  and bring up like as follows.
+2. If you need to expose the HTTP ports or have custom stack configuration( see [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/onboarding-server/example-onboarding-server-stack.custom.yaml) for example configuration of 'onboarding-stack.custom.yaml' file)  and bring up like as follows.
 ```sh
 docker stack deploy -c onboarding-server-stack.yaml -c onboarding-server-stack.resources.yaml -c onboarding-server-stack.custom.yaml onboarding-server
 ```
