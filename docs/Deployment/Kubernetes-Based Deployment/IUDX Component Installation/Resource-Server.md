@@ -67,7 +67,7 @@ sidebar_position: 15
     ```
 
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/resource-server#introduction)**.
-- For more information about the Resource-Server, refer **[here](link-to-resource-server-information)**.
+- For more information about the Resource-Server, refer **[here](https://github.com/datakaveri/iudx-resource-server/tree/4.5.0#iudx-resource-server)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>

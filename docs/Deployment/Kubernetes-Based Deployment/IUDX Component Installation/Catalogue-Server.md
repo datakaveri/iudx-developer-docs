@@ -121,8 +121,8 @@ Create a static COS cat index in Elasticsearch through Kibana.
     ```
     kubectl get pods -n cat
     ```
-- For more information on installation instructions, refer [here](link_to_documentation).
-- For more information about the catalogue-server, refer [here](link_to_documentation).
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/catalogue#introduction).**
+- For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-catalogue-server/tree/4.5.0#iudx-catalogue-server).**
 
 <details>
 <summary><div class="style">Testing</div></summary>
