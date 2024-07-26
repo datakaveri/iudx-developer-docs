@@ -39,7 +39,7 @@ The data marketplace is IUDX's platform that enables data Providers to host thei
     - CPU 
     - RAM 
     - PID limit 
-    in `dmp-apd-stack.resources.yaml` as shown in sample resource-values file for [here](example-dmp-apd-server-stack.resources.yaml)
+    in `dmp-apd-stack.resources.yaml` as shown in sample resource-values file for example-dmp-apd-server-stack.resources.yaml
 
 5. Deploy APD server stack:
 
@@ -56,7 +56,7 @@ The apis documentation will be available at
 
 1. The upstream code for dmp-apd server is available at [here](https://github.com/datakaveri/iudx-data-marketplace-apd.git).
 
-2. If you need to expose the HTTP ports or have custom stack configuration( see [here](example-dmp-apd-server-stack.custom.yaml) for example configuration of 'dmp-apd-stack.custom.yaml' file)  and bring up like as follows.
+2. If you need to expose the HTTP ports or have custom stack configuration( see example-dmp-apd-server-stack.custom.yaml for example configuration of 'dmp-apd-stack.custom.yaml' file)  and bring up like as follows.
 
 ```sh
 docker stack deploy -c marketplace-apd-stack.yaml -c dmp-apd-stack.resources.yaml -c dmp-apd-stack.custom.yaml dmp-apd

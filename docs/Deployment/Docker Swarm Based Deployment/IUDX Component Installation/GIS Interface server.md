@@ -45,7 +45,7 @@ The GIS interface is a resource server which defines the interactions between th
     - CPU 
     - RAM 
     - PID limit
-    in `gis-stack.resources.yaml` as shown in sample resource-values file for [here](example-gis-stack.resources.yaml)
+    in `gis-stack.resources.yaml` as shown in sample resource-values file for [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/gis/example-gis-stack.resources.yaml)
 
 5. Deploy GIS interface server:
 
@@ -60,7 +60,7 @@ The apis documentation will be available at `https://<gis-server-domain-name>/ap
 # Notes
 
 1. The upstream code for gis server is available at https://github.com/datakaveri/iudx-gis-interface.
-2. If you need to expose the HTTP ports or have custom stack configuration( see [here](example-gis-stack.custom.yaml) for example configuration of 'gis-stack.custom.yaml' file)  and bring up like as follows.
+2. If you need to expose the HTTP ports or have custom stack configuration( see [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/gis/example-gis-stack.custom.yaml) for example configuration of 'gis-stack.custom.yaml' file)  and bring up like as follows.
 ```sh
 docker stack deploy -c gis-stack.yaml -c gis-stack.resources.yaml -c gis-stack.custom.yaml gis
 ```

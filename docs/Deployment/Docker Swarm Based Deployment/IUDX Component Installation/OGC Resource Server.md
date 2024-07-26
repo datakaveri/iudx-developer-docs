@@ -46,7 +46,7 @@ sidebar_position: 21
     - CPU 
     - RAM 
     - PID limit 
-    in `ogc-rs-stack.resources.yaml` as shown in sample resource-values file for [here](example-ogc-rs-stack.resources.yaml)
+    in `ogc-rs-stack.resources.yaml` as shown in sample resource-values file for [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/ogc-rs/example-ogc-rs-stack.resources.yaml)
 
 5. Deploy OGC Resource server stack:
     
@@ -63,7 +63,7 @@ The apis documentation will be available at
 
 1. The upstream code for ogc resource server is available at [here](https://github.com/datakaveri/ogc-resource-server.git).
 
-2. If you need to expose the HTTP ports or have custom stack configuration( see [here](example-ogc-rs-stack.custom.yaml) for example configuration of 'ogc-rs-stack.custom.yaml' file)  and bring up like as follows.
+2. If you need to expose the HTTP ports or have custom stack configuration( see [here](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/ogc-rs/example-ogc-rs-stack.custom.yaml) for example configuration of 'ogc-rs-stack.custom.yaml' file)  and bring up like as follows.
 
 ```sh
 docker stack deploy -c ogc-rs-stack.yaml -c ogc-rs-stack.resources.yaml -c ogc-rs-stack.custom.yaml ogc-rs
