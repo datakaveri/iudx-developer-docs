@@ -6,7 +6,7 @@ sidebar_position: 5
 <div style={{textAlign: 'center'}}>
 
 
-![Architecture](../../../resources/auth/Redis-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/Redis.png)
 </div></div>
  
 - Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.

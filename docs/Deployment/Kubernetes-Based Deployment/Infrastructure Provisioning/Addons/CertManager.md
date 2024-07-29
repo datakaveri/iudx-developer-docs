@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-1. Navigate to the directory- **iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager**
+1. Navigate to the directory- **[iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/Certmanager)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager
     ```
@@ -37,9 +37,9 @@ For more information refer to the documentation **[here](https://cert-manager.io
     ```
     This will deploy both staging and production LetsEncrypt issuers
 3. To uninstall a specific issuer, use following command
-    ```
-    kubectl delete ClusterIssuer <name-of-issuer>
-    ```
+   ```
+   kubectl delete ClusterIssuer <name-of-issuer>
+   ```
 :::note Important
 The Let’s Encrypt production issuer has very strict rate limits. Hence, use Let’s Encrypt staging issuer while experimenting and learning.
 [Read more](https://letsencrypt.org/docs/rate-limits/)

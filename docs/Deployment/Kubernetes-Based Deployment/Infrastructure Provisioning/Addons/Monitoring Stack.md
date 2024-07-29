@@ -24,7 +24,7 @@ sidebar_position: 6
     TELEGRAM_CHAT_ID=<telegram-chat-id>
     TELEGRAM_BOT_TOKEN=<telegram-chat-token>
     ```
-2. Define appropriate values for below resources in resource-values.yaml for **[grafana](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)** **[loki](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/loki)** **[prometheus](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)** **[promtail](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** in respevtive directories
+2. Define appropriate values for below resources in resource-values.yaml for **[grafana](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)**, **[loki](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/loki)**, **[prometheus](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)**, **[promtail](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** in respevtive directories
     * CPU of requests and limits
     * RAM of requests and limits
     * nodeSelector

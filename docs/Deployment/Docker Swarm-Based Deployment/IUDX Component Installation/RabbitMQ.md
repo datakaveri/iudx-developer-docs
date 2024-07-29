@@ -6,7 +6,7 @@ sidebar_position: 3
 
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/rabbitMQ-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitMQ.png)
 </div>
 
 - RabbitMQ is utilized as a databroker in the IUDX system.
@@ -137,7 +137,7 @@ Folder structure for RabbitMQ secrets is as follows
    RabbitMQ UI can be accessed from **https://< rabbitmq-domain :28041/**
    <div style={{textAlign: 'center'}}>
 
-  ![Architecture](../../../../resources/auth/rabbitmQ.png)
+  ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitmQ_UI.png)
 
    </div>
 11. Bring up the account generator stack **(clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation

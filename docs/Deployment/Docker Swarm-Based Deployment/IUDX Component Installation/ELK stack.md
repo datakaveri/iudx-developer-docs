@@ -4,7 +4,7 @@ sidebar_position: 6
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/ElasticStack-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/ELK.png)
 </div></div>
 
 + Deploys Elasticsearch, Logstash, and Kibana. 

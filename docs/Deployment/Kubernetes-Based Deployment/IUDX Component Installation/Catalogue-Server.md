@@ -5,7 +5,7 @@ sidebar_position: 13
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/cat_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/catalogue.png)<br/>
 
 </div></div>
 
@@ -72,7 +72,7 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/resource-server)**:
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/catalogue
@@ -88,7 +88,7 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 4. Configure the `secrets/.cat.env` file with appropriate values in the placeholders `<...>`.
 
-5. Define Resource Values in resource-values.yaml as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/catalogue/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/catalogue/example-azure-resource-values.yaml )**.
+5. Define Resource Values in resource-values.yaml as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/catalogue/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/catalogue/example-azure-resource-values.yaml )**.
 
     ```
     #For Azure
@@ -121,8 +121,8 @@ Create a static COS cat index in Elasticsearch through Kibana.
     ```
     kubectl get pods -n cat
     ```
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/catalogue#introduction).**
-- For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-catalogue-server/tree/4.5.0#iudx-catalogue-server).**
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/catalogue#introduction).**
+- For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-catalogue-server/tree/5.0.0#iudx-catalogue-server).**
 
 <details>
 <summary><div class="style">Testing</div></summary>

@@ -58,7 +58,7 @@ sidebar_position: 14
     ```
 
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/onboarding-server#introduction)**.
-- For more information about the onboarding-server, refer **[here](https://github.com/datakaveri/iudx-onboarding-server)**.
+- For more information about the onboarding-server, refer **[here](https://github.com/datakaveri/iudx-onboarding-server/tree/1.0.1)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>

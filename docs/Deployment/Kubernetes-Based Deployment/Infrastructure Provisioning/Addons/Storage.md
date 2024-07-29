@@ -2,14 +2,14 @@
 sidebar_position: 5
 ---
 
-1. Navigate to the directory [iudx-deployment/K8s-deployment/K8s-cluster/addons/storage/aws](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/storage/aws)
+1. Navigate to the directory **[iudx-deployment/K8s-deployment/K8s-cluster/addons/storage/aws](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/storage/aws)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/storage/aws
     ```
 
 ### EBS setup 
 1. Enable flag `--allow-privileged=true` for kube-apiserver
-    * This flag can be enabled in rancher server, through advanced cluster configuration.
+    - This flag can be enabled in rancher server, through advanced cluster configuration.
 
 2. Install the drivers by following the steps [here](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/blob/master/docs/install.md#installation)
 3. Deploy the storage class

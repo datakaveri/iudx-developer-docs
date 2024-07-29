@@ -4,7 +4,7 @@ sidebar_position: 6
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/ElasticStack-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/ELK.png)
 </div></div>
 
 - Deploys ElasticSearch, Logstash, and Kibana
@@ -20,7 +20,7 @@ RabbitMQ needs to be up for Logstash to connect.
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/elk)**:
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/elk
@@ -143,7 +143,7 @@ To install Kibana on the Kubernetes (K8s) cluster, follow these steps:
      kubectl get pods -n elastic
      ```
 
-For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/elk#install-elk)**.
+For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/elk)**.
 
 
 ### Disclaimer
@@ -231,7 +231,6 @@ Due to low nginx rate limits, Kibana dashboard might display the following error
         2. Minimum count: 720.
         3. Maximum count: 744.
 
-6. Please refer **[official elastic docs](https://www.elastic.co/guide/en/cloud/current/ec-s3-snapshotting.html)** for detailed instructions.
 
 <details>
 <summary><div class="style">Testing</div></summary>

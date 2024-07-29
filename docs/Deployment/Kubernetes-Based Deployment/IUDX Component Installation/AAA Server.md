@@ -3,7 +3,7 @@ sidebar_position: 11
 ---
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/aaa_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/aaa.png)<br/>
 
 </div>
 
@@ -65,7 +65,7 @@ sidebar_position: 11
 
     2. Substitute appropriate values using commands mentioned in config files. Configure the `secrets/.aaa.env` file with appropriate values in the placeholders `<...>`.
 
-4. Defining appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/auth-server/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/auth-server/example-azure-resource-values.yaml)**.
+4. Defining appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/auth-server/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/auth-server/example-azure-resource-values.yaml)**.
 
     ```
     #For Azure
@@ -99,8 +99,8 @@ sidebar_position: 11
     kubectl get pods -n aaa
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/auth-server#introduction)**.
-- For more information about the auth-server, refer **[here](https://github.com/datakaveri/iudx-aaa-server/tree/4.5.0#india-urban-data-exchange-iudx-authentication-authorization-and-accounting-aaa-server)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/auth-server#introduction)**.
+- For more information about the auth-server, refer **[here](https://github.com/datakaveri/iudx-aaa-server/tree/5.0.0#india-urban-data-exchange-iudx-authentication-authorization-and-accounting-aaa-server)**.
 
 
 <details>

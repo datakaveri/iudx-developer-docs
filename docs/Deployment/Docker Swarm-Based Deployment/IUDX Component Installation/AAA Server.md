@@ -3,7 +3,7 @@ sidebar_position: 11
 ---
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/aaa_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/aaa.png)<br/>
 
 </div>
 

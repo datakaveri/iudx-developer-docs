@@ -6,7 +6,7 @@ sidebar_position: 3
 
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/rabbitMQ-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitMQ.png)
 </div>
 
 - RabbitMQ is utilized as a databroker in the IUDX system.
@@ -18,7 +18,7 @@ sidebar_position: 3
 Let's Encrypt Certificate Generation for DNS Verification:
 
 :::note
-**To generate TLS certificates using Let's Encrypt, you'll need DNS provider credentials of the domain to add a TXT record for DNS verification.**
+To generate TLS certificates using Let's Encrypt, you'll need DNS provider credentials of the domain to add a TXT record for DNS verification.
 :::note
 
 Follow the steps below:
@@ -41,12 +41,12 @@ Follow the steps below:
 
   7. After successful verification, Let's Encrypt will generate the certificate. The location of the Let's Encrypt certificate will be provided in the output message.
 
-- **[Azure App Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Serv
-- **[AWS Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Service
+- **[Azure App Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Service.
+- **[AWS Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Service.
 
 ### Installation
 
-1. Navigate to the below directory: 
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker)**: 
     ```
     cd iudx-deployment/K8s-deployment/Charts/databroker
     ```
@@ -110,11 +110,11 @@ Follow the steps below:
 
 9. Define Appropriate values of loadbalancer configuration -
   	- Loadbalancer annotations
+    in `external-client-service.yaml` as shown in sample service files to **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-aws-service.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-azure-service.yaml)**.
 
     :::note
-    **Don’t replace “loadBalancerIP” placeholder.**
+    Don’t replace “loadBalancerIP” placeholder.
     :::
-    in `external-client-service.yaml` as shown in sample service files to **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-aws-service.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-azure-service.yaml)**.
 
 10. To install the `rabbitmq` chart:
     ```
@@ -122,8 +122,8 @@ Follow the steps below:
     ```
 11. The command deploys RabbitMQ on the Kubernetes cluster in a 3 node configuration. The Parameters section lists the parameters that can be configured during installation. The script will:
 
-- Create a namespace **rabbitmq**
-- Create required secrets
+- Creates a namespace **rabbitmq**
+- Creates required secrets
 - Deploy RabbitMQ statefulset and services
 - Deploy an init job which creates users, vhosts, users, exchanges, queues, and bindings  
    
@@ -144,7 +144,7 @@ Follow the steps below:
  - RabbitMQ UI can be accessed from **https://< rmq-hostname >:< external-client-https-port >**
    <div style={{textAlign: 'center'}}>
 
-  ![Architecture](../../../../resources/auth/rabbitmQ.png)
+  ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitmQ_UI.png)
 
    </div>
 

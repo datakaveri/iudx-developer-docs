@@ -6,7 +6,7 @@ sidebar_position: 5
 <div style={{textAlign: 'center'}}>
 
 
-![Architecture](../../../resources/auth/Redis-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/Redis.png)
 </div></div>
  
 
@@ -23,7 +23,7 @@ sidebar_position: 5
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/redis)**:
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/redis
@@ -81,7 +81,7 @@ sidebar_position: 5
 
     <div className="img_background">
     <div style={{textAlign: 'center'}}>
-        <img src="../../../../resources/auth/redis_test.png" alt="Architecture" />
+        <img src="https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/redis_testing.png" />
     </div>
     </div>
 

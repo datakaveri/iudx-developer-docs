@@ -4,7 +4,7 @@ sidebar_position: 9
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/lip_server-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/lip.png)
 </div></div>
 
 + The new latest ingestion pipeline is designed to ingest data asynchronously into Redis Database. This pipeline would enable the IUDX Resource Server to serve latest data for IUDX specified resources that are available in the Database.
@@ -14,7 +14,7 @@ sidebar_position: 9
 
 ### Installation:
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/latest-ingestion-pipeline)**:
     ```
     cd iudx-deployment/K8s-deployment/Charts/latest-ingestion-pipeline
     ```
@@ -36,7 +36,7 @@ sidebar_position: 9
 
     ```
 
-5. Defining Appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-azure-resource-values.yaml)**
+5. Defining Appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-azure-resource-values.yaml)**
 
     - CPU of all latest-ingestion-pipeline verticles
     - RAM of all latest-ingestion-pipeline verticles 
@@ -61,8 +61,8 @@ sidebar_position: 9
     ```
     kubectl get pods -n lip
     ```
-- For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
-- For more information about the latest-ingestion-pipeline, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
+- For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
+- For more information about the latest-ingestion-pipeline, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
 
 
 <details>

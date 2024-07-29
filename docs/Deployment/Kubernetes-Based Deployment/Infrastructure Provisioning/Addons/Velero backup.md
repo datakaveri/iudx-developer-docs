@@ -10,9 +10,9 @@ sidebar_position: 3
 
 ### Install and Start Velero
 
-1. Download and Install **[Velero](https://github.com/vmware-tanzu/velero/releases)** v1.10.x cli locally
-2. Set up velero on AWS **[here](https://github.com/datakaveri/iudx-deployment/tree/master/K8s-deployment/K8s-cluster/addons/velero/aws)**
-3. Create a Velero-specific credentials file (credentials-velero) in your local directory with the following content
+1. Download and Install **[velero](https://github.com/vmware-tanzu/velero/releases)** v1.10.x cli locally.
+2. Set up velero on AWS **[here](https://github.com/datakaveri/iudx-deployment/tree/master/K8s-deployment/K8s-cluster/addons/velero/aws)**.
+3. Create a Velero-specific credentials file (credentials-velero) in your local directory with the following content.
     ```
     [default]
     aws_access_key_id=<AWS_ACCESS_KEY_ID>
@@ -22,18 +22,19 @@ sidebar_position: 3
 where the access key id and secret are the values returned from the `create-access-key` request from step 2.
 
 4. Deploy Velero in the cluster and start the deployment. This will create a namespace called `velero`, and place a deployment named `velero` in it.
-    ```
-    velero install \
-	--provider aws \
-	--plugins velero/velero-plugin-for-aws:v1.9.0 \
-	--bucket $BUCKET \
-	--backup-location-config region=$REGION \
-	--snapshot-location-config region=$REGION \
-	--secret-file ./credentials-velero
-    ```
+    
+```
+velero install \
+--provider aws \
+--plugins velero/velero-plugin-for-aws:v1.9.0 \
+--bucket $BUCKET \
+--backup-location-config region=$REGION \
+--snapshot-location-config region=$REGION \
+--secret-file ./credentials-velero 
+```
 Replace placeholders (BUCKET and REGION) with appropriate values 
 
-5. Check the status of pods 
+5. Check the status of pods using the below command 
     ```
     kubectl get pods -n velero
     ```
@@ -58,9 +59,9 @@ Create scheduled backups only after the whole IUDX deployment is done
         velero schedule create <schedule-name> --schedule "0 */6 * * *" --include-resources=pvc,pv --selector <app-label> --ttl 24h
         ```
     * To create daily backups with 30 days of retention period (Takes a backup at 3am daily.)
-        ```
+      ```
         velero schedule create <schedule-name> --schedule "0 3 * * *" --include-resources=pvc,pv --selector <app-label>
-        ```
+      ```
     This creates a backup object with the name `<schedule-name>-<TIMESTAMP>`
 
 :::note

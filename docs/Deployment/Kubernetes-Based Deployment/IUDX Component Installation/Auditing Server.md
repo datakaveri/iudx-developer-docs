@@ -35,7 +35,7 @@ sidebar_position: 10
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/auditing-server/tree/5.0.0)**:
     ```
     cd iudx-deployment/K8s-deployment/Charts/auditing-server
     ```
@@ -79,13 +79,17 @@ sidebar_position: 10
     ```
     kubectl get pods -n auditing
     ```
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/auditing-server/example-azure-resource-values.yaml)**.
-- For more information about the auditing server, refer **[here](https://github.com/datakaveri/auditing-server/tree/1.0.0)**.   
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/auditing-server/example-azure-resource-values.yaml)**.
+- For more information about the auditing server, refer **[here](https://github.com/datakaveri/auditing-server/tree/5.0.0)**.   
 
-### Tests
+<details>
+<summary><div class="style">Testing</div></summary>
 
 Check the logs of all pods in the auditing namespace, there should not be any error log. If it's there, please address as specified/indicated by the log:
 
 ```
 kubectl logs -f -n auditing <auditing-pod-name>
 ```
+
+
+</details>

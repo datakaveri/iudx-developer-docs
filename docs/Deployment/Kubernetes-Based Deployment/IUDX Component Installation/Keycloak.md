@@ -4,7 +4,7 @@ sidebar_position: 7
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/keycloak-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/keycloak.png)
 </div></div>
 
 - Keycloak is used as an Identity manager.
@@ -18,7 +18,7 @@ Generate keycloak-db password in postgresql installation: `../postgresql/secrets
 
 ### Installation
 
-1. Navigate to the below directory :
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/keycloak)** :
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/keycloak

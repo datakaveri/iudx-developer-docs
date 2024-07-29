@@ -4,7 +4,7 @@ sidebar_position: 12
 
 ### Prerequisites
 
-For all the auth APIs used here, please use the Postman collection + env found **[here](https://github.com/datakaveri/iudx-aaa-server/blob/main/src/main/resources/postman/IUDX-AAA-Server.postman_collection.json)**.  
+For all the auth APIs used here, please use the Postman collection + env found **[here](https://github.com/datakaveri/iudx-aaa-server/blob/5.0.0/src/main/resources/postman/IUDX-AAA-Server.postman_collection.json)**.  
 
 
 ### ACL APD Trustee Registration

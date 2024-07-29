@@ -5,7 +5,7 @@ sidebar_position: 5
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/zookeeper-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/zookeeper.png)
 </div>
 </div>
 
@@ -16,7 +16,7 @@ sidebar_position: 5
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/zookeeper)** :
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/zookeeper

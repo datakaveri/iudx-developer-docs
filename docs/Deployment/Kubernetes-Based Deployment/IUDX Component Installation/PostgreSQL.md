@@ -5,7 +5,7 @@ sidebar_position: 4
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/postgress-arch.png)
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres.png)
 </div></div>
 
 - PostgreSQL is being used as a credentials and policy data store.
@@ -16,7 +16,7 @@ sidebar_position: 4
 
 ### Installation
 
-1. Navigate to the directory:
+1. Navigate to the **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/postgresql)**:
 
     ```
     cd iudx-deployment/K8s-deployment/Charts/postgresql
@@ -48,7 +48,7 @@ sidebar_position: 4
 6. Before install, make sure sufficient worker nodes  with enough free resources are present to deploy the 5 pods. The install script assumes the whole postgres installation is possible in 150s.
 
 7. To install postgresql on the k8s cluster, run the install script using the following command::
-
+./../../resources/auth/user_ls.png
     ```
     ./install.sh
     ```
@@ -120,7 +120,7 @@ sidebar_position: 4
 
         <div style={{textAlign: 'center'}}>
 
-        ![Architecture](../../../../resources/auth/ls.png)<br/>
+        ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(1).png)<br/>
         
         </div>
 
@@ -133,7 +133,7 @@ sidebar_position: 4
 
         <div style={{textAlign: 'center'}}>
 
-        ![Architecture](../../../../resources/auth/user_ls.png)<br/>
+        ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(2).png)<br/>
         
         </div>
 
