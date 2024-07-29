@@ -172,7 +172,7 @@ To add a Cos/dx **admin user, follow these steps:
 
 ### Post Configuration
 
-Once Keycloak is configured, the Keycloak host, port, client IDs and client secrets need to be added to the config of the AAA server. Please refer to this **[example config](https://github.com/datakaveri/iudx-aaa-server/blob/4.5.0/configs/config-example.json)** for more information. In the example config,
+Once Keycloak is configured, the Keycloak host, port, client IDs and client secrets need to be added to the config of the AAA server. Please refer to this **[example config](https://github.com/datakaveri/iudx-aaa-server/blob/5.0.0/configs/config-example.json)** for more information. In the example config,
 
 - Keycloak host, port, client IDs, and client secrets. 
 - The example config should include:

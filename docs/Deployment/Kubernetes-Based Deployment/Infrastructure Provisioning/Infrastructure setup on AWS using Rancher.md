@@ -251,7 +251,7 @@ Tag all the AWS resources brought up (make sure to match it with those tags of c
 
    Let's setup tools to interact with the cluster 
 
-   1. Navigate to **[iudx-deployment/K8s-deployment/K8s-cluster/misc-setup](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/misc-setup)**
+   1. Navigate to **[iudx-deployment/K8s-deployment/K8s-cluster/misc-setup](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/misc-setup)**
 
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/misc-setup

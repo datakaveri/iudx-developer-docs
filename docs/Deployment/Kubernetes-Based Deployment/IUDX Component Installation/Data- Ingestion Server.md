@@ -5,7 +5,7 @@ sidebar_position: 19
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/di_server_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/data_ingestion_server.png)<br/>
 
 </div></div>
 
@@ -16,7 +16,7 @@ sidebar_position: 19
 
 ### Installation
 
-1. Navigate to the below directory: 
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/data-ingestion)**: 
     ```
     cd iudx-deployment/K8s-deployment/Charts/data-ingestion
     ```
@@ -30,7 +30,7 @@ sidebar_position: 19
 
 4. Configure the `secrets/.di.env` file with appropriate values in the placeholders `<...>`.
 
-5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/data-ingestion/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/data-ingestion/example-azure-resource-values.yaml)**:
+5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/data-ingestion/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/data-ingestion/example-azure-resource-values.yaml)**:
 
     ```
     # For Azure
@@ -64,8 +64,8 @@ sidebar_position: 19
     kubectl get pods -n di
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/data-ingestion#introduction)**.
-- For more information about the Data Ingestion Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/4.5.0)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/data-ingestion#introduction)**.
+- For more information about the Data Ingestion Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/5.0.0)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>

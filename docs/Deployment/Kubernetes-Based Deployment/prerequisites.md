@@ -21,5 +21,5 @@ Basic knowledge on following DevOps Technologies
 10. A working K8s cluster with all the required addons installed.
      A guide for bringing up a k8s cluster on aws and azure  with RKE2 and RKE1 can be found below,
       * [K8s Infrastructure Setup | AWS | Rancher| 5.0.0](../Kubernetes-Based%20Deployment/Infrastructure%20Provisioning/Infrastructure%20setup%20on%20AWS%20using%20Rancher.md) 
-      * [  K8s | Infrastructure Setup | Azure | Rancher| 4.5.0](././Infrastructure%20Provisioning/Infrastructure%20setup%20on%20Azure%20using%20Rancher.md)
+      * [  K8s | Infrastructure Setup | Azure | Rancher| 5.0.0](././Infrastructure%20Provisioning/Infrastructure%20setup%20on%20Azure%20using%20Rancher.md)
 

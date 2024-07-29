@@ -4,7 +4,7 @@ sidebar_position: 16
 
 ### Installation:
 
-1. Navigate to the below directory: 
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/rs-proxy)**: 
     ```
     cd iudx-deployment/K8s-deployment/Charts/rs-proxy
     ```
@@ -18,7 +18,7 @@ sidebar_position: 16
 
 4. Configure the `secrets/.rs-proxy.env` file with appropriate values in the placeholders `<...>`.
 
-5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/rs-proxy/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/rs-proxy/example-azure-resource-values.yaml)**:
+5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/rs-proxy/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/rs-proxy/example-azure-resource-values.yaml)**:
 
     ```
     # For Azure
@@ -52,8 +52,8 @@ sidebar_position: 16
     kubectl get pods -n rs-proxy
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/rs-proxy#introduction)**.
-- For more information about the rs-proxy, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/4.5.0#iudx-resource-proxy-server)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/rs-proxy#introduction)**.
+- For more information about the rs-proxy, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/5.0.0#iudx-resource-proxy-server)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>

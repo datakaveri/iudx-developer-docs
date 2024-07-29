@@ -40,8 +40,8 @@ Before proceeding further, run **[add-helm-repositories.sh](https://github.com/d
 <details>
 <summary><div class="style">Configure config file</div></summary>
 
-1. Navigate to the directory [iudx-deployment/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher ](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher)
-2. Define appropriate values in [config.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/config.yaml)
+1. Navigate to the directory [iudx-deployment/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher ](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher)
+2. Define appropriate values in [config.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/config.yaml)
 
 </details>
 

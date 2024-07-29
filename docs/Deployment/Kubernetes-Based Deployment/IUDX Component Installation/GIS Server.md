@@ -4,7 +4,7 @@ sidebar_position: 18
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/gis-interface)**:
     ```
     cd iudx-deployment/K8s-deployment/Charts/gis-interface
     ```
@@ -18,7 +18,7 @@ sidebar_position: 18
 
 4. Configure the `secrets/.gis.env` file with appropriate values in the placeholders `<...>`.
 
-5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/gis-interface/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/gis-interface/example-azure-resource-values.yaml)**:
+5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/gis-interface/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/gis-interface/example-azure-resource-values.yaml)**:
 
     ```
     # For Azure
@@ -52,8 +52,8 @@ sidebar_position: 18
     kubectl get pods -n gis
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/gis-interface#introduction)**.
-- For more information about the GIS Interface Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/4.5.0)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/gis-interface#introduction)**.
+- For more information about the GIS Interface Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/5.0.0)**.
 
 
 <details>

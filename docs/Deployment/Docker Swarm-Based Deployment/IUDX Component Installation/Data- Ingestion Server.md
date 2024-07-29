@@ -5,7 +5,7 @@ sidebar_position: 16
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/di_server_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/data_ingestion_server.png)<br/>
 
 </div></div>
 

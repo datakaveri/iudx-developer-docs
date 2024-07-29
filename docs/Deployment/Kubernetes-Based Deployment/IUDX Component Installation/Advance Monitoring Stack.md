@@ -4,7 +4,7 @@ sidebar_position: 20
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/adv-monstack)**:
     ```
     cd iudx-deployment/K8s-deployment/adv-monstack
     ```
@@ -25,4 +25,4 @@ sidebar_position: 20
     ```
     ./install.sh
     ```
-
+    

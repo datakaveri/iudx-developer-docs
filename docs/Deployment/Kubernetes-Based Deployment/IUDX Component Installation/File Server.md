@@ -3,7 +3,7 @@ sidebar_position: 17
 ---
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/file_server_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/file_server.png)<br/>
 
 </div>
 
@@ -20,7 +20,7 @@ Create a static cos cat index in Elasticsearch through Kibana.
 
 ### Installation:
 
-1. Navigate to the below directory :
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/file-server)** :
     ```
     cd iudx-deployment/K8s-deployment/Charts/file-server
     ```
@@ -68,8 +68,8 @@ Create a static cos cat index in Elasticsearch through Kibana.
     kubectl get pods -n file-server
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/rs-proxy#introduction)**.
-- For more information about the File Server, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/4.5.0#iudx-resource-proxy-server)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/rs-proxy#introduction)**.
+- For more information about the File Server, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/5.0.0#iudx-resource-proxy-server)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>

@@ -12,7 +12,7 @@ sidebar_position: 2
 
 Nginx setup using helm chart
 
-1. Navigate to the directory **[iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/ingress-controller)**
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/ingress-controller)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller
     ```
@@ -20,7 +20,7 @@ Nginx setup using helm chart
     * CPU requests and limits
     * RAM requests and limits <br/>
 
-    Refer **[here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/example-resource-values.yaml)**.
+    Refer **[here](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/example-resource-values.yaml)**.
 
 3. Define resource values for memcached and ingress-nginx in respective directories in `resource-values.yaml` as per the resource planning done in the previous step. Please see the example of 'resource-values.yaml' reference for ingress-nginx, memcached present in their respective directories for aws and azure cloud. 
 

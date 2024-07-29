@@ -33,7 +33,7 @@ The dmp-apdschema created using flyway using following steps:
 
 ### Installation
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts)**:
     ```
     cd iudx-deployment/K8s-deployment/Charts/dmp-apd
     ```

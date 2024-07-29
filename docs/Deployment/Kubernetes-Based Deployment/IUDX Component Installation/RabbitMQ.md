@@ -153,7 +153,7 @@ Follow the steps below:
     ```
     kubectl get pods -n rabbitmq
     ```
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker#rabbitmq-cluster-in-k8s-as-a-statefulset)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker#rabbitmq-cluster-in-k8s-as-a-statefulset)**.
 
 ### Manual Configuration from RMQ Management UI
 

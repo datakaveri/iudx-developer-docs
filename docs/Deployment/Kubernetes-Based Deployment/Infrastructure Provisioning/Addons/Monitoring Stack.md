@@ -2,7 +2,15 @@
 sidebar_position: 6
 ---
 
-1. Navigate to the directory **[iudx-deployment/K8s-deployment/K8s-cluster/addons/mon-stack](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack)**
+
+### Installation
+<div style={{textAlign: 'center'}}>
+
+![Architecute](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/Mon-stack.jpg)
+</div>
+
+
+1. Navigate to the directory **[iudx-deployment/K8s-deployment/K8s-cluster/addons/mon-stack](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/mon-stack)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/mon-stack
     ```
@@ -24,7 +32,7 @@ sidebar_position: 6
     TELEGRAM_CHAT_ID=<telegram-chat-id>
     TELEGRAM_BOT_TOKEN=<telegram-chat-token>
     ```
-2. Define appropriate values for below resources in resource-values.yaml for **[grafana](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)**, **[loki](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/loki)**, **[prometheus](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)**, **[promtail](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** in respevtive directories
+2. Define appropriate values for below resources in resource-values.yaml for **[grafana](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)**, **[loki](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/mon-stack/loki)**, **[prometheus](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)**, **[promtail](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** in respevtive directories
     * CPU of requests and limits
     * RAM of requests and limits
     * nodeSelector

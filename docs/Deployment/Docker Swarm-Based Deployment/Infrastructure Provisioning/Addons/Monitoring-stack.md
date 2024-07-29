@@ -5,7 +5,7 @@ sidebar_position: 3
 ### Installation
 <div style={{textAlign: 'center'}}>
 
-![Architecute](../../../../resources/auth/Mon-stack-arch.jpg)
+![Architecute](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/Mon-stack.jpg)
 </div>
 
 1. Navigate to the below directory 

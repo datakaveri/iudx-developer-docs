@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-1. Navigate to the directory- **[iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/Certmanager)**
+1. Navigate to the directory- **[iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/K8s-cluster/addons/Certmanager)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager
     ```

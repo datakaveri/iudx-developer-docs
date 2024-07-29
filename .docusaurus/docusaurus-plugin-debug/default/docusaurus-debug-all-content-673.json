@@ -1180,7 +1180,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
               "isDocsHomePage": false,
               "title": "Monitoring Stack",
-              "description": "1. Navigate to the directory iudx-deployment/K8s-deployment/K8s-cluster/addons/mon-stack",
+              "description": "Installation",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
               "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",

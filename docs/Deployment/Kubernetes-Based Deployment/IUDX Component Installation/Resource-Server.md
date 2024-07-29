@@ -4,7 +4,7 @@ sidebar_position: 15
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/rs-architecture.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rs.png)<br/>
 
 </div></div>
 
@@ -18,7 +18,7 @@ sidebar_position: 15
 
 ### Installation:
 
-1. Navigate to the below directory:
+1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/resource-server)**:
     ```
     cd iudx-deployment/K8s-deployment/Charts/resource-server
     ```
@@ -66,8 +66,8 @@ sidebar_position: 15
     kubectl get pods -n rs
     ```
 
-- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/resource-server#introduction)**.
-- For more information about the Resource-Server, refer **[here](https://github.com/datakaveri/iudx-resource-server/tree/4.5.0#iudx-resource-server)**.
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/resource-server#introduction)**.
+- For more information about the Resource-Server, refer **[here](https://github.com/datakaveri/iudx-resource-server/tree/5.0.0#iudx-resource-server)**.
 
 <details>
 <summary><div class="style">Testing</div></summary>
