@@ -14,7 +14,7 @@ Linux node **(Standard_D4as v4 VM)** to run rancher server with docker env set u
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/k8s_cluster.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/azure_k8s_cluster.png)<br/>
 </div></div>
 
 1. Clone the repository using the following command:  
@@ -50,7 +50,7 @@ Linux node **(Standard_D4as v4 VM)** to run rancher server with docker env set u
     docker-compose -f docker-compose.yaml -f docker-compose.custom.yaml up -d
     ```
 
-Rancher UI will be available at **<rancher_server_url>:27083**
+Rancher UI will be available at `<rancher_server_url>:27083`    
 
 
 
@@ -161,7 +161,7 @@ The resource plan for various IUDX components and the corresponding vm  is prese
     
     7. Add the following tags:-
         1. cluster-autoscaler-enabled: true
-        2. cluster-autoscaler-name: **< rancher-cluster-name >**
+        2. cluster-autoscaler-name: `< rancher-cluster-name >`
         3. Add min and max tags for setting the minimum and maximum number of instances that the cluster autoscaler can scale to.
     
     8. Rest of the values can be adjusted as per need.
@@ -175,7 +175,7 @@ The resource plan for various IUDX components and the corresponding vm  is prese
 **Create Storage Containers and azure blob storage**
     
 1. Create Azure Blob Storage container and Azure AD user for async query
-    1. Follow the document available [here]**(https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)**.
+    1. Follow the document available **[here](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)**.
     2. Create an Azure AD user with necessary roles and permissions
 
 Create an Azure RBAC custome policy the following permission:
@@ -214,7 +214,7 @@ Create an Azure RBAC custome policy the following permission:
 
 ```
 2. Follow the document available here to create an Azure blob storage and Azure AD user for Elasticsearch snapshots
-    1. Follow the document available [here]**(https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)** .
+    1. Follow the document available **[here](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview)** .
     2. Create an Azure AD user with necessary roles and permissions
 
 
@@ -356,7 +356,7 @@ Create access keys for both IAM users for use in the installation steps of Resou
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../resources/auth/azure_image_2.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/azure_monstack.png)<br/>
 </div></div>
 
 
@@ -376,7 +376,7 @@ Create access keys for both IAM users for use in the installation steps of Resou
         > ./create_secrets.sh
         ```
 
-    4. Config Telegrambot for grafana's alerts is detailed here. Then appropriately define the environment file secrets/grafana-env-secret. The template is defined as follow: Please do not include comments and substitute appropiate correct values in the placeholders `< placholder `>`.
+    4. Config Telegrambot for grafana's alerts is detailed here. Then appropriately define the environment file secrets/grafana-env-secret. The template is defined as follow: Please do not include comments and substitute appropiate correct values in the placeholders `<placholder>`.
 
         ```
         GF_SERVER_ROOT_URL=https://<grafana-domain-name>/
@@ -399,7 +399,7 @@ Create access keys for both IAM users for use in the installation steps of Resou
         - nodeSelector
         - Storage class name
         
-        in grafana/resource-values.yaml, loki/resource-values.yaml, prometheus/resource-values.yaml and promtail/resource-values.yaml as shown in sample resource-values files present in the **[grafana/,loki](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)**, **[rometheus/](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)**, and **[promtail/](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** directories respectively.
+        in grafana/resource-values.yaml, loki/resource-values.yaml, prometheus/resource-values.yaml and promtail/resource-values.yaml as shown in sample resource-values files present in the **[grafana/,loki](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/grafana)**, **[prometheus/](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/prometheus)**, and **[promtail/](https://github.com/datakaveri/iudx-deployment/blob/3.5.0/K8s-deployment/K8s-cluster/addons/mon-stack/promtail)** directories respectively.
 
     7. Run the install.sh script. This will install the whole mon-stack: prometheus, grafana, loki, and promtail.
 

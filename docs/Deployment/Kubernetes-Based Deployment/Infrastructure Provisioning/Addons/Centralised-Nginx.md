@@ -12,7 +12,7 @@ sidebar_position: 2
 
 Nginx setup using helm chart
 
-1. Navigate to the directory [iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/ingress-controller)
+1. Navigate to the directory **[iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/ingress-controller)**
     ```
     cd iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller
     ```
@@ -20,7 +20,7 @@ Nginx setup using helm chart
     * CPU requests and limits
     * RAM requests and limits <br/>
 
-    Refer [here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/example-resource-values.yaml)
+    Refer **[here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/example-resource-values.yaml)**.
 
 3. Define resource values for memcached and ingress-nginx in respective directories in `resource-values.yaml` as per the resource planning done in the previous step. Please see the example of 'resource-values.yaml' reference for ingress-nginx, memcached present in their respective directories for aws and azure cloud. 
 
@@ -29,10 +29,10 @@ Nginx setup using helm chart
     ```
 4. Configure values for the below attibutes in `resource-values.yaml` file
 
-    * **`node.kubernetes.io/instance-type:<instance-type>`**
-    * **`service.beta.kubernetes.io/aws-load-balancer-type:<load-balancer-type>`**
-    * **`service.beta.kubernetes.io/aws-load-balancer-eip-allocations:<Allocation ID of EIP>`**
-    * **`service.beta.kubernetes.io/aws-load-balancer-subnets:<subnet-id>`**
+    * **node.kubernetes.io/instance-type:< instance-type >**
+    * **service.beta.kubernetes.io/aws-load-balancer-type: < load-balancer-type >**
+    * **service.beta.kubernetes.io/aws-load-balancer-eip-allocations:< Allocation ID of EIP >**
+    * **service.beta.kubernetes.io/aws-load-balancer-subnets:< subnet-id >**
 5. Install Nginx using script using below command
     ```
     ./install.sh
