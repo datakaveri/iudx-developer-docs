@@ -80,7 +80,7 @@ From Directed Acyclic Graph (DAG), the components can be deployed as following i
 ## IUDX Component Version Matrix
 
 
-| Component                 | Image Version  |
+<!-- | Component                 | Image Version  |
 |:---------------------------:|:----------------:|
 | **[Immudb](./IUDX%20Component%20Installation/Immudb.md)**                    | 1.9DOM.2          |
 | **[RabbitMQ](./IUDX%20Component%20Installation/RabbitMQ.md)**                  | 3.12.12        |
@@ -105,4 +105,4 @@ From Directed Acyclic Graph (DAG), the components can be deployed as following i
 | **[Advance Monitoring Stack](./IUDX%20Component%20Installation/Advance%20Monitoring%20Stack.md)**   | 4.0.0-4        |
 | **[OGC Resource server](./IUDX%20Component%20Installation/OGC%20Resource%20Server.md)** | 1.0.0-alpha-2808970 |
 | **[Data Marketplace apd](./IUDX%20Component%20Installation/Data%20Marketplace%20apd.md)** | 1.0.0-alpha-24b54d3 |
-        
+         -->
