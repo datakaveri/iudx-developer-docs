@@ -1,7 +1,11 @@
 ---
 sidebar_position: 12
 ---
+<div style={{textAlign: 'center'}}>
 
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/acl-apd.png)<br/>
+
+</div>
 ### Prerequisites
 
 For all the auth APIs used here, please use the Postman collection + env found **[here](https://github.com/datakaveri/iudx-aaa-server/blob/5.0.0/src/main/resources/postman/IUDX-AAA-Server.postman_collection.json)**.  

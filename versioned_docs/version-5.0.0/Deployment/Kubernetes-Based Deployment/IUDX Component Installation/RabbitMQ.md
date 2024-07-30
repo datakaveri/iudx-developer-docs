@@ -2,8 +2,6 @@
 sidebar_position: 3
 ---
 
-
-
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitMQ.png)

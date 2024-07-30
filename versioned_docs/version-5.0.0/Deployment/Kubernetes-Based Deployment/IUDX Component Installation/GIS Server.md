@@ -2,6 +2,13 @@
 sidebar_position: 18
 ---
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/gis_server.png)<br/>
+
+</div></div>
+
 ### Installation
 
 1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/gis-interface)**:

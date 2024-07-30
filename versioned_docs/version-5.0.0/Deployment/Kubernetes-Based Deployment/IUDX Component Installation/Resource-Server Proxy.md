@@ -2,6 +2,13 @@
 sidebar_position: 16
 ---
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rs_proxy.png)<br/>
+
+</div></div>
+
 ### Installation:
 
 1. Navigate to the below **[directory](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/rs-proxy)**: 

@@ -2,6 +2,13 @@
 sidebar_position: 22
 ---
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/marketplace_apd.png)<br/>
+
+</div></div>
+
 The dmp-apdschema created using flyway using following steps:
 
 1. Port forward the pgpool (Postgres proxy) on one terminal:
