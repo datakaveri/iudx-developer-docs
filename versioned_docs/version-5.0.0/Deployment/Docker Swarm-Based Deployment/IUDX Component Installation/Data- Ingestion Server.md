@@ -1,7 +1,17 @@
 ---
 sidebar_position: 16
 ---
-Will be deploying using swarm stack yaml files
+
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/data_ingestion_server.png)<br/>
+
+</div></div>
+
++ The Data Ingestion Server is the "Ingestion Firewall and Data Cleaning Middleware" of IUDX. It enables Providers and Delegates to publish data using the IUDX API as per the data descriptor using the HTTP protocol over TLS(HTTPs).
+
++ Will be deploying using swarm stack yaml files
 
 ### Installation
 
@@ -27,13 +37,13 @@ Will be deploying using swarm stack yaml files
 
 5. Configure the `.di.env` file, referring to `example-env`.
 
-6. Define appropriate values of resources:
+6. Define appropriate values of resources in in `di-stack.resources.yml` as shown in the sample file **[example-di-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/data-ingestion-server/example-di-stack.resources.yaml)**.
+
     - CPU requests and limits
     - RAM requests and limits
     - PID limit
 
-   in `di-stack.resources.yml` as shown in the sample file **[example-di-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/data-ingestion-server/example-di-stack.resources.yaml)**.
-
+   
 7. To install Data-Ingestion server stack, use the following command:
 
     ```   
@@ -46,5 +56,5 @@ Will be deploying using swarm stack yaml files
 
 1. di-server api documentation can be accessed from **https://< di-domain >/apis**
 2. To check if the di-server are deployed and running: `docker stack ps di`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/data-ingestion-server#install)**.
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/data-ingestion-server#install)**.
 4. For more information about the di-server, refer **[here](https://github.com/datakaveri/iudx-data-ingestion-server#iudx-data-ingestion-server)**.

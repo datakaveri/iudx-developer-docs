@@ -5,7 +5,7 @@ sidebar_position: 13
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/cat_overview.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/catalogue.png)<br/>
 
 </div></div>
 

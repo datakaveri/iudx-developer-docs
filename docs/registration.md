@@ -16,25 +16,25 @@ All users of the IUDX platform must be registered and authenticated to perform a
 
 On entering the Consumer or Provider Panels, there is an option to register when you are prompted to sign in.
 
-![Register](../resources/auth/reg.png)<br/>
+![Register](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/reg.png)<br/>
 *Register*
 
 Enter the required details.
 
-![Account details](../resources/auth/first-step-reg.png)<br/>
+![Account details](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/first-step-reg.png)<br/>
 *Account details*
 
 ## 2. Email Verification
 
 You should receive an email at your registered address, with a verification link. On clicking the link, the account has been successfully linked to the email address.
 
-![Email verification required](../resources/auth/email-verification.png)<br/>
+![Email verification required](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/email-verification.png)<br/>
 *Email verification required*
 
-![Sample email dialog](../resources/auth/sample-email.png)<br/>
+![Sample email dialog](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/sample-email.png)<br/>
 *Sample email dialog*
 
-![Account created, last step of registration pending](../resources/auth/last-step.png)<br/>
+![Account created, last step of registration pending](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/last-step.png)<br/>
 *Account created, last step of registration pending*
 
 ## 3. Requesting User Roles
@@ -45,7 +45,7 @@ Once email verification is complete, you can now choose the roles you would like
 
 **NOTE : If the consumer role is chosen, all resource servers are automatically selected and the user would get the consumer role for any new resource server that is added.**
 
-![Choosing consumer role](../resources/auth/cons-role.png)<br/>
+![Choosing consumer role](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/cons-role.png)<br/>
 *Choosing consumer role*
 
 ### Provider Registration
@@ -54,8 +54,8 @@ Users who require the provider role would need to give some extra information re
 
 **NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Provider Panel once they have been approved by the admin of the Resource Server they have chosen. Providers who are waiting for approval may connect with the point of contact in IUDX to expedite the approval process.**.
 
-![Choosing provider role](../resources/auth/prov-role.png)<br/>
+![Choosing provider role](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/prov-role.png)<br/>
 *Choosing provider role*
 
-![Successful provider registration (pending RS admin approval)](../resources/auth/succ-prov-reg.png)<br/>
+![Successful provider registration (pending RS admin approval)](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/succ-prov-reg.png)<br/>
 *Successful provider registration (pending RS admin approval)*

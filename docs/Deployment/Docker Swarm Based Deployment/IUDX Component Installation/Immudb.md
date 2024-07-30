@@ -7,7 +7,7 @@ sidebar_position: 2
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](../../../../resources/auth/immudb.png)<br/>
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/immudb.png)<br/>
 
 </div></div>
 

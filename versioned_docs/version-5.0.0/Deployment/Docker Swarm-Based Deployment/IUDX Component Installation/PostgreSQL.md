@@ -2,6 +2,11 @@
 sidebar_position: 4
 ---
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres.png)
+</div></div>
 
 - PostgreSQL is being used as a credentials and policy data store.
 - Will be deploying using swarm stack yaml files
@@ -37,11 +42,12 @@ sidebar_position: 4
         └── postgres-rs-password
     ```
 
-4. Define appropriate values of resources 
-    + CPU requests and limits
-    + RAM requests and limits) 
+4. Define appropriate values of resources in `postgres-stack.resources.yml` as shown in the sample file **[example-postgres-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/postgres/example-postgres-stack.resources.yaml)**.
 
-    in `postgres-stack.resources.yml` as shown in the sample file **[example-postgres-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/postgres/example-postgres-stack.resources.yaml)**.
+    + CPU requests and limits
+    + RAM requests and limits
+    + PID limit
+    
 
 5. Deploy PostgreSQL stack as follows:
 
@@ -61,7 +67,7 @@ sidebar_position: 4
     2. Clone the iudx-aaa-server repository and perform the following commands:
 
         ```
-        git clone -b 4.5.0 https://github.com/datakaveri/iudx-aaa-server.git && cd iudx-aaa-server
+        git clone -b 5.0.0 https://github.com/datakaveri/iudx-aaa-server.git && cd iudx-aaa-server
         ```
             
         1. Update `flyway.conf` with the required data as follows:
@@ -76,18 +82,23 @@ sidebar_position: 4
 
         2. Run the info command to test the configuration. Then, run the migrate command to set up the database:
 
-            ```
-            # Prerequisite: [Download](https://maven.apache.org/download.cgi) and [Install](https://maven.apache.org/install.html) Maven.
-            mvn flyway:info -Dflyway.configFiles=flyway.conf
-            mvn flyway:migrate -Dflyway.configFiles=flyway.conf
-            ```
+        <div class="txt_color">
+        Prerequisite :
+        </div>
+        
+        **[Download](https://maven.apache.org/download.cgi)** and **[Install](https://maven.apache.org/install.html)** Maven.
+
+        ```
+        mvn flyway:info -Dflyway.configFiles=flyway.conf
+        mvn flyway:migrate -Dflyway.configFiles=flyway.conf
+        ```
 
     Refer **[here](https://github.com/datakaveri/iudx-aaa-server#flyway-database-setup)** for more information.
 
 7. Similarly, do the same for the resource server:
 
     ```
-    git clone -b 4.5.0 https://github.com/datakaveri/iudx-resource-server.git && cd iudx-resource-server
+    git clone -b 5.0.0 https://github.com/datakaveri/iudx-resource-server.git && cd iudx-resource-server
     ```
 
     1. Update `flyway.conf` for the resource server:
@@ -135,7 +146,7 @@ sidebar_position: 4
 
     <div style={{textAlign: 'center'}}>
 
-    ![Architecture](../../../../resources/auth/ls.png)<br/>
+    ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(1).png)<br/>
     
     </div>
 
@@ -149,7 +160,7 @@ sidebar_position: 4
 
     <div style={{textAlign: 'center'}}>
 
-    ![Architecture](../../../../resources/auth/user_ls.png)<br/>
+    ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(2).png)<br/>
     
     </div>
 9. Redploy stack without exposing `5432` port:
@@ -176,4 +187,4 @@ sidebar_position: 4
 | postgres           | `secrets/passwords/postgresql-password`       | Superuser                                                    | Used to set users and RBAC|
 
 
-For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/postgres#introduction)**.
+For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/postgres#introduction)**.
