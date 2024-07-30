@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
   "isDocsHomePage": false,
   "title": "ELK stack",
-  "description": "+ Deploys Elasticsearch, Logstash, and Kibana.",
+  "description": "Architecture",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",

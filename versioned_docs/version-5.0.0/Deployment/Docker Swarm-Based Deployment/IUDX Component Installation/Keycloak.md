@@ -1,8 +1,13 @@
 ---
 sidebar_position: 7
 ---
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
 
-Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/keycloak.png)
+</div></div>
+
+- Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.
 
 ### Prerequisites
 
@@ -37,10 +42,13 @@ Generate the Keycloak database password during the PostgreSQL installation: `../
         └── keycloak-db-passwd
     ```
 
-5. Define Appropriate values of resources - 
-    + CPU requests and limits, 
-    + RAM requests and limits, in `keycloak-stack.resources.yml` as shown in the sample file **[example-keycloak-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/keycloak/example-keycloak-stack.resources.yaml)**.
+5. Define Appropriate values of resources in `keycloak-stack.resources.yml` as shown in the sample file **[example-keycloak-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/keycloak/example-keycloak-stack.resources.yaml)**.
+    
+    + CPU requests and limits 
+    + RAM requests and limits
+    + PID limit
 
+6. Deploy Keycloak stack as follows:
     
     ```
     cp example-keycloak-stack.resources.yaml keycloak-stack.resources.yaml

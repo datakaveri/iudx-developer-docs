@@ -2,10 +2,16 @@
 sidebar_position: 3
 ---
 
+
+
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitMQ.png)
+</div>
+
 - RabbitMQ is utilized as a databroker in the IUDX system.
 - It facilitates the exchange of data between consumers and publishers using the AMQP streaming protocol.
 - Will be deploying using swarm stack yaml files
-
 
 ### Prerequisite
 
@@ -34,7 +40,7 @@ sidebar_position: 3
 
 1. Navigate to the below directory: 
     ```
-    sudo certbot certonly --manual --preferred-challenges dns -d <wildcard(*)**-qualified-domain-name
+    cd iudx-deployment/Docker-Swarm-deployment/single-node/databroker/
     ```
    
 2. Assign the node label if not assigned during swarm installation using: 
@@ -54,14 +60,14 @@ sidebar_position: 3
 
 5. Copy certificate files to secrets directory as shown below:
     ```
-    cp /etc/letsencrypt/live/<domain-name/chain.pem  secrets/pki/rabbitmq-ca-cert.pem
+    cp /etc/letsencrypt/live/<domain-name>/chain.pem  secrets/pki/rabbitmq-ca-cert.pem
 
-    cp /etc/letsencrypt/live/<domain-name/fullchain.pem  secrets/pki/rabbitmq-server-cert.pem
+    cp /etc/letsencrypt/live/<domain-name>/fullchain.pem  secrets/pki/rabbitmq-server-cert.pem
 
-    cp /etc/letsencrypt/live/<domain-name/privkey.pem secrets/pki/rabbitmq-server-key.pem
+    cp /etc/letsencrypt/live/<domain-name>/privkey.pem secrets/pki/rabbitmq-server-key.pem
     ```
 
-6. If required,> edit the config - secrets/init-config.json to suit the needs for users, exchanges, queues, bindings and policies.
+6. If required, edit the config - secrets/init-config.json to suit the needs for users, exchanges, queues, bindings and policies.
 Folder structure for RabbitMQ secrets is as follows
 
 7. Folder structure for RabbitMQ secrets is as follows
@@ -85,15 +91,17 @@ Folder structure for RabbitMQ secrets is as follows
         └── rabbitmq-server-key.pem
    ```
 
-8. Define Appropriate values of resources -
-    - CPU
-    - RAM
-    - PID limit 
-  in databroker-stack.resources.yaml for as shown in sample resource-values file **[example-databroker-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/databroker/example-databroker-stack.resources.yaml)**
+8. Define Appropriate values of resources in `databroker-stack.resources.yaml` for as shown in sample resource-values file **[example-databroker-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/databroker/example-databroker-stack.resources.yaml)**
+
+    + CPU requests and limits
+    + RAM requests and limits
+    + PID limit
+  
 
 9. We can deploy RabbitMQ using the following command 
     ```
     cp example-databroker-stack.resources.yaml databroker-stack.resources.yaml 
+
     docker stack deploy -c databroker-stack.yaml -c databroker-stack.resources.yaml  databroker
     ```
    Expect the following output on successful deployment
@@ -129,10 +137,10 @@ Folder structure for RabbitMQ secrets is as follows
    RabbitMQ UI can be accessed from **https://< rabbitmq-domain :28041/**
    <div style={{textAlign: 'center'}}>
 
-  ![Architecture](../../../../resources/auth/rabbitmQ.png)
+  ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitmQ_UI.png)
 
    </div>
-11. Bring up the account generator stack (clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation
+11. Bring up the account generator stack **(clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation
      ```
      docker stack deploy -c rmq-init-setup.yaml  rmq-tmp
      ```
@@ -239,8 +247,10 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
 ### Tests
 
-1. Navigate to the **[iudx-deployment/K8s-deployment/Charts/databroker/tests](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)** directory.
-
+1. Navigate to the below directory :
+    ```
+    cd iudx-deployment/K8s-deployment/Charts/databroker/tests
+    ```
 2. Test the publishing of messages to exchange and routing to queue through a Python script.
 
     1. Create a Python virtual environment on the Rancher/Bootstrap machine:
@@ -276,7 +286,7 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
     <br/>
 
-    5. Configure the following parameters in the Python script (you can use admin user and password)**:
+    5. Configure the following parameters in the Python script **(you can use admin user and password)**:
 
         ```
         username = ""
@@ -295,4 +305,4 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
     7. Test if the messages have reached the database and redis-latest queue. Log in to the RMQ management interface at **https://< rmq-domain-name :28041/ - goto - queues**
     .
 
- Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)** for more detailed information.
+ Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** for more detailed information.

@@ -1,7 +1,15 @@
 ---
 sidebar_position: 9
 ---
-Will be deploying using swarm stack yaml files.
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/lip.png)
+</div></div>
+
++ The new latest ingestion pipeline is designed to ingest data asynchronously into Redis Database. This pipeline would enable the IUDX Resource Server to serve latest data for IUDX specified resources that are available in the Database.
+
++ Will be deploying using swarm stack yaml files.
 
 ### Installation
 
@@ -24,12 +32,11 @@ Will be deploying using swarm stack yaml files.
 
     2. Configure the `secrets/.lip.env` file with appropriate values in the placeholders `<...>`.
 
-4. Define appropriate values of resources 
+4. Define appropriate values of resources in `lip-stack.resources.yml` as shown in the sample file **[example-lip-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/lip/example-lip-stack.resources.yaml)**.
 
-    + CPU requests and limits
-    + RAM requests and limits
+    
     + PID limit
-    in `lip-stack.resources.yml` as shown in the sample file **[example-lip-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/lip/example-lip-stack.resources.yaml)**.
+   
 
 5. To install the latest ingestion pipeline stack, use the following commands:
 
@@ -86,7 +93,7 @@ Will be deploying using swarm stack yaml files.
 
        6. Run the Python Scripts
 
-       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)**    for more information.
+       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)**    for more information.
 
     b. Test if the Messages have Reached the Redis
        

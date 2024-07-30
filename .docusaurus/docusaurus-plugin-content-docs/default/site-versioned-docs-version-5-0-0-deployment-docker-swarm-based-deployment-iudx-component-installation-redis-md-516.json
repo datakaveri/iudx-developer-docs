@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
   "isDocsHomePage": false,
   "title": "Redis",
-  "description": "Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.",
+  "description": "Architecture",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",

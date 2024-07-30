@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
   "isDocsHomePage": false,
   "title": "RabbitMQ",
-  "description": "- RabbitMQ is utilized as a databroker in the IUDX system.",
+  "description": "Architecture",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",

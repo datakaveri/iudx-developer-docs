@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
   "isDocsHomePage": false,
   "title": "Latest-Ingestion-Pipeline",
-  "description": "Will be deploying using swarm stack yaml files.",
+  "description": "Architecture",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",

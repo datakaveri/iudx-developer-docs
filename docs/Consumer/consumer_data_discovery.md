@@ -11,18 +11,18 @@ With the help of [Catalogue APIs](https://api.catalogue.iudx.org.in/apis), a `co
 
 A `consumer` can also use the [Catalogue UI](https://catalogue.iudx.org.in/) to discover resources. 
 
-![Catalogue UI](../../resources/cat/cat_home_page.png)<br/>
+![Catalogue UI](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/cat/cat_home_page.png)<br/>
 *Catalogue UI*
 
 Using the `search text box`, a free text search can be performed. The UI will show the list of search results while typing a search query which can be viewed by scrolling them. If you are interested in a resource, you can select them by clicking the respective resource in the list. 
 
-![Catalogue Text Search](../../resources/cat/cat_air_search.png)<br/>
+![Catalogue Text Search](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/cat/cat_air_search.png)<br/>
 *Catalogue Text Search*
 
 The Catalogue Resource Page provides information about a resource which includes information about a `Provider`, the resource server that serves the resource, the `data descriptor` of the resource, the `access type` of the resource etc.
 
 
-![Catalogue Resource Page](../../resources/cat/cat_res_page.png)<br/>
+![Catalogue Resource Page](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/cat/cat_res_page.png)<br/>
 *Catalogue Resource Page*
 
 ## Access Policies of a Resource

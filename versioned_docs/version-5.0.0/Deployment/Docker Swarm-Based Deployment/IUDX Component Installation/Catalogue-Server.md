@@ -2,7 +2,16 @@
 sidebar_position: 13
 ---
 
-Will be deploying using swarm stack YAML files.
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
+![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/catalogue.png)<br/>
+
+</div></div>
+
++ The catalogue is IUDXs data discovery and dataset metadata publishing portal. It allows data providers to publish their data resources by making an IUDX vocabulary annotated meta-data document describing their datasource and affiliated terminologies. The datasources publish their data to the IUDX Resource Server. It allows consumers of such data to easily discover such resources by means of powerful queries and consume the data from Resource Servers in an automated and machine interpretable way.
+
++ Will be deploying using swarm stack YAML files.
 
 ### Prerequisite
 
@@ -82,12 +91,12 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 5. Configure the .cat.env file, refer to example-env
 
-6. Define appropriate values of resources 
+6. Define appropriate values of resources in `cat-stack.resources.yml` as shown in the sample file **[example-cat-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/catalogue/example-cat-stack.resources.yaml)**.
 
     + CPU requests and limits
     + RAM requests and limits
     + PID limit
-    in `cat-stack.resources.yml` as shown in the sample file **[example-cat-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/catalogue/example-cat-stack.resources.yaml)**.
+    
 
 7. To install catalogue server stack, use the following command:
 
@@ -100,5 +109,5 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 1. cat-server api documentation can be accessed from **https://< cop-domain >/cat/apis**.
 2. To check if the cat-server are deployed and running: `docker stack ps cat`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/catalogue)**.
-4. For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/catalogue).**
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue)**.
+4. For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue).**

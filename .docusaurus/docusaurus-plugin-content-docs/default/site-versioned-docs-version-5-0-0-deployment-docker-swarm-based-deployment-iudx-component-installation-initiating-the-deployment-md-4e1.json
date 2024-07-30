@@ -17,8 +17,8 @@
   },
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
-    "title": "Deployment Overview",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+    "title": "Monitoring-stack",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
   },
   "next": {
     "title": "Immudb",

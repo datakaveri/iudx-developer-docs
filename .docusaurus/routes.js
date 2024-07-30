@@ -591,7 +591,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','51f'),
+    component: ComponentCreator('/docs','907'),
     routes: [
       {
         path: '/docs/client-credentials',
@@ -672,6 +672,36 @@ export default [
         'sidebar': "version-5.0.0/tutorialSidebar"
       },
       {
+        path: '/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx',
+        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx','41a'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack',
+        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack','7d4'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics',
+        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics','1c7'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network',
+        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network','337'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning',
+        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning','b26'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
         path: '/docs/Deployment/Docker Swarm-Based Deployment/Introduction',
         component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/Introduction','1de'),
         exact: true,
@@ -728,12 +758,6 @@ export default [
       {
         path: '/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server',
         component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server','050'),
-        exact: true,
-        'sidebar': "version-5.0.0/tutorialSidebar"
-      },
-      {
-        path: '/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server',
-        component: ComponentCreator('/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server','19c'),
         exact: true,
         'sidebar': "version-5.0.0/tutorialSidebar"
       },
@@ -800,6 +824,216 @@ export default [
       {
         path: '/docs/Deployment/Introduction',
         component: ComponentCreator('/docs/Deployment/Introduction','7af'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview','49d'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx','056'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager','ca2'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher','af7'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack','772'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage','480'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup','43e'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher','876'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher','74a'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning','9b0'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/Introduction',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/Introduction','c7f'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server','3c0'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD','b94'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack','de8'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server','1bc'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server','769'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server','d01'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place','ac7'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server','dd0'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack','8b8'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server','54e'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server','14a'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server','1f9'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb','8e5'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment','3db'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak','905'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline','c4b'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server','d98'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL','db4'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ','67c'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis','88d'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server','b4c'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy','eb5'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper','d44'),
+        exact: true,
+        'sidebar': "version-5.0.0/tutorialSidebar"
+      },
+      {
+        path: '/docs/Deployment/Kubernetes-Based Deployment/prerequisites',
+        component: ComponentCreator('/docs/Deployment/Kubernetes-Based Deployment/prerequisites','436'),
         exact: true,
         'sidebar': "version-5.0.0/tutorialSidebar"
       },

@@ -452,7 +452,7 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-next-registration-18-e-c1f"
   },
-  "/docs-51f": {
+  "/docs-907": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docsc-9-b-1e0"
   },
@@ -508,6 +508,26 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-deployment-docker-swarm-based-deployment-deployment-overview-70-b-102"
   },
+  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx-41a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-centralised-nginxde-0-dc9"
+  },
+  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack-7d4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-monitoring-stack-2-e-9-61f"
+  },
+  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics-1c7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-provisioning-node-exporter-and-docker-daemon-metrics-4-c-0-fc4"
+  },
+  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network-337": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-provisioning-docker-swarm-with-overlay-network-8-cc-d4a"
+  },
+  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning-b26": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-resource-planning-98-e-46a"
+  },
   "/docs/Deployment/Docker Swarm-Based Deployment/Introduction-1de": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-deployment-docker-swarm-based-deployment-introduction-5-e-8-971"
@@ -547,10 +567,6 @@
   "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server-050": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-file-server-4-df-460"
-  },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server-19c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-gis-serverd-14-74b"
   },
   "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb-292": {
     "component": "component---theme-doc-item-178-a40",
@@ -595,6 +611,146 @@
   "/docs/Deployment/Introduction-7af": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-deployment-introduction-590-1d1"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview-49d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-deployment-overview-8-f-5-f6d"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx-056": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-centralised-nginxa-3-c-787"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager-ca2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-cert-manager-678-5cb"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher-af7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-cluster-autoscaler-for-rancher-57-d-f5e"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack-772": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-monitoring-stackf-43-317"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage-480": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-storage-6-b-0-657"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup-43e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-velero-backup-7-cd-7c4"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher-876": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-infrastructure-setup-on-aws-using-ranchere-62-d09"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher-74a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-infrastructure-setup-on-azure-using-rancher-865-93f"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning-9b0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-infrastructure-provisioning-resource-planning-00-b-1f1"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/Introduction-c7f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-introduction-367-f32"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server-3c0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-aaa-server-263-47a"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD-b94": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-acl-apd-273-2c2"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-de8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-advance-monitoring-stack-0-b-7-52e"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server-1bc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-api-server-74-d-4bb"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server-769": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-auditing-server-13-d-070"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server-d01": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-catalogue-server-6-b-7-52b"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place-ac7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-data-market-place-98-b-5d5"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server-dd0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-data-ingestion-servercfc-365"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack-8b8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-elk-stack-9-c-5-4e5"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server-54e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-file-server-3-aa-411"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server-14a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-geo-server-0-da-b68"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server-1f9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-gis-server-386-841"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb-8e5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-immudbd-8-d-495"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment-3db": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-initiating-the-deployment-739-8c3"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak-905": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-keycloak-1-d-7-42d"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-c4b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-latest-ingestion-pipelinef-76-53b"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server-d98": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-onboarding-server-852-484"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL-db4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-postgre-sql-0-f-1-468"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ-67c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-rabbit-mq-76-f-fea"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis-88d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-redis-0-f-0-423"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server-b4c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-resource-serveraf-3-441"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy-eb5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-resource-server-proxy-849-f2c"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper-d44": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-iudx-component-installation-zookeeperd-95-812"
+  },
+  "/docs/Deployment/Kubernetes-Based Deployment/prerequisites-436": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-deployment-kubernetes-based-deployment-prerequisitesae-8-2ad"
   },
   "/docs/Provider/provider-77b": {
     "component": "component---theme-doc-item-178-a40",

@@ -17,7 +17,11 @@
   },
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
-    "title": "GIS-Server",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
+    "title": "Data- Ingestion Server",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/Deployment/Kubernetes-Based Deployment/Introduction"
   }
 }

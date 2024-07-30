@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
   "isDocsHomePage": false,
   "title": "Data- Ingestion Server",
-  "description": "Will be deploying using swarm stack yaml files",
+  "description": "Architecture",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
@@ -21,7 +21,7 @@
     "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
   },
   "next": {
-    "title": "GIS-Server",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
+    "title": "Advance Monitoring Stack",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
   }
 }

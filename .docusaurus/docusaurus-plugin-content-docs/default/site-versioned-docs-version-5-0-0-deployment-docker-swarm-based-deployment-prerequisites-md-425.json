@@ -3,7 +3,7 @@
   "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites",
   "isDocsHomePage": false,
   "title": "Prerequisites",
-  "description": "Basic knowledge on following DevOps Technologies",
+  "description": "Basic knowledge on the following DevOps Technologies is recommended:",
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
   "slug": "/Deployment/Docker Swarm-Based Deployment/prerequisites",

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 In the Publisher Panel, an Auth-Delegate may view and switch between the Providers who have granted them access. Once a Provider is chosen, the Delegate can view, create and delete both policies and delegations for said Provider.
 
-![View and change Providers](../../resources/auth/auth-dele-pub-panel.png)<br/>
+![View and change Providers](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/auth-dele-pub-panel.png)<br/>
 *View and change Providers*
 
 **NOTE: Auth-Delegates are not permitted to create other Auth-Delegates**
