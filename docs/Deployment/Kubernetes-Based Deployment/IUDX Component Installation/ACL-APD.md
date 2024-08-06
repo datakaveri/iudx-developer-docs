@@ -3,7 +3,7 @@ sidebar_position: 12
 ---
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/acl-apd.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/acl-apd.png)<br/>
 
 </div>
 

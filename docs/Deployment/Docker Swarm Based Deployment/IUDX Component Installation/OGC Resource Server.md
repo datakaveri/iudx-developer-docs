@@ -5,7 +5,7 @@ sidebar_position: 21
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/ogcrs.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/ogcrs.png)<br/>
 
 </div></div>
 

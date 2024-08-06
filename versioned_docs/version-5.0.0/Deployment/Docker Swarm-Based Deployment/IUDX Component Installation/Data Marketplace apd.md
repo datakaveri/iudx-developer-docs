@@ -4,7 +4,7 @@ sidebar_position: 22
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/marketplace_apd.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/marketplace_apd.png)<br/>
 
 </div></div>
 The data marketplace is IUDX's platform that enables data Providers to host their resources bundled as a product. Likewise, data consumers can buy the products listed by various providers. The consumers can make purchases against a product variant of the any product. Providers can receive payments through Razorpay which is implemented as the payment gateway. All users can interact with the data marketplace API server using HTTPs requests.

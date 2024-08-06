@@ -9,7 +9,7 @@ The IUDX platform consists of various IUDX-built services and open-source compon
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/deployment_overview.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/deployment_overview.png)
 </div></div>
 
 IUDX is a data exchange platform facilitating the seamless discovery, and exchange of authorized data. Following is a short explanation of how various components interact in the IUDX platform:

@@ -5,7 +5,7 @@ sidebar_position: 4
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/postgres.png)
 </div></div>
 
 - PostgreSQL is being used as a credentials and policy data store.
@@ -120,7 +120,7 @@ sidebar_position: 4
 
         <div style={{textAlign: 'center'}}>
 
-        ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(1).png)<br/>
+        ![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/postgres_testing(1).png)<br/>
         
         </div>
 
@@ -133,7 +133,7 @@ sidebar_position: 4
 
         <div style={{textAlign: 'center'}}>
 
-        ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/postgres_testing(2).png)<br/>
+        ![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/postgres_testing(2).png)<br/>
         
         </div>
 

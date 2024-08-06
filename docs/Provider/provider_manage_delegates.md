@@ -18,8 +18,8 @@ A provider can also delegate the responsibility of uploading resources to the IU
 ## Manage Delegates
 A provider may view, create and delete delegations in the Delegates tab.
 
-![Viewing delegates](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/view-delegates.png)<br/>
+![Viewing delegates](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/auth/view-delegates.png)<br/>
 *Viewing delegates*
 
-![Add delegates](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/create-delegate.png)<br/>
+![Add delegates](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/auth/create-delegate.png)<br/>
 *Add delegates*

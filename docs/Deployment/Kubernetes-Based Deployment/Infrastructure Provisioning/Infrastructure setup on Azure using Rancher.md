@@ -14,7 +14,7 @@ Linux node **(Standard_D4as v4 VM)** to run rancher server with docker env set u
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/azure_k8s_cluster.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/azure_k8s_cluster.png)<br/>
 </div></div>
 
 1. Clone the repository using the following command:  
@@ -356,7 +356,7 @@ Create access keys for both IAM users for use in the installation steps of Resou
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/azure_monstack.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/azure_monstack.png)<br/>
 </div></div>
 
 

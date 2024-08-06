@@ -154,7 +154,7 @@ sidebar_position: 2
    * Click on tribar (≡) present on top left corner in rancher desktop
    * Under "EXPLORE CLUSTER" elect **local** 
    * Select **app**⇒ **Charts**
-      ![rancher](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rancher_backupChart.png)
+      ![rancher](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/rancher_backupChart.png)
    * Configure default storage location. Refer **[here](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/backup-restore-configuration/storage-configuration)**
    * Click **Instal**
 2. Create a secret in the local cluster with your S3 credentials ( Use credentials fo **rancher backup user** created in infrastructure setup section earlier) with keys and the directives accessKey and secretKey. It can be in any namespace. An example secret is **[here](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/backup-restore-configuration/backup-configuration#example-credentialsecret)**.

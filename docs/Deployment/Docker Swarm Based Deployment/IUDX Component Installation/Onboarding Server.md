@@ -5,7 +5,7 @@ sidebar_position: 14
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/onboarding.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/onboarding.png)<br/>
 
 </div></div>
 The onboarding server is IUDX's helper server for onboarding items, instances and middle layer metadata in a federated Catalogue server model.

@@ -4,7 +4,7 @@ sidebar_position: 7
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/keycloak.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/keycloak.png)
 </div></div>
 
 - Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.

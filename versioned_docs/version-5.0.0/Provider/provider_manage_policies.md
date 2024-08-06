@@ -5,7 +5,7 @@ sidebar_position: 2
 # Manage Policies
 A provider can create, view and delete access policies set for consumers and delegates in the Consumers tab.
 
-![View policies set for consumers](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/view-pols.png)<br/>
+![View policies set for consumers](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/auth/view-pols.png)<br/>
 *View policies set for consumers*
  
 A policy can be set for a consumer for a particular resource group/dataset with a restriction to access type. 
@@ -16,5 +16,5 @@ A policy can be set for a consumer for a particular resource group/dataset with 
 
 **The policy can only be created if the consumer exists and if the resource group/dataset exists on the IUDX Catalogue**. An expiry time for the policy can also be set. Once a policy expires, a consumer may not be able to request for tokens for the particular resource.
 
-![Create policy](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/auth/create-policy.png)<br/>
+![Create policy](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/auth/create-policy.png)<br/>
 *Create policy*

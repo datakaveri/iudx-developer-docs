@@ -5,7 +5,7 @@ sidebar_position: 18
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/gis_server.png)<br/>
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/gis_server.png)<br/>
 
 </div></div>
 

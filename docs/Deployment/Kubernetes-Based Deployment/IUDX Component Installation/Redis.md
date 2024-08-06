@@ -6,7 +6,7 @@ sidebar_position: 5
 <div style={{textAlign: 'center'}}>
 
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/Redis.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/Redis.png)
 </div></div>
  
 
@@ -81,7 +81,7 @@ sidebar_position: 5
 
     <div className="img_background">
     <div style={{textAlign: 'center'}}>
-        <img src="https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/redis_testing.png" />
+        <img src="https://docs.assets.dataforpublicgood.org.in/IUDX-resources/redis_testing.png" />
     </div>
     </div>
 

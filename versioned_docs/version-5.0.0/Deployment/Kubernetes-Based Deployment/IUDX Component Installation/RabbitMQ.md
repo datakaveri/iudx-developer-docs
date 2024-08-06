@@ -4,7 +4,7 @@ sidebar_position: 3
 
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitMQ.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/rabbitMQ.png)
 </div>
 
 - RabbitMQ is utilized as a databroker in the IUDX system.
@@ -142,7 +142,7 @@ Follow the steps below:
  - RabbitMQ UI can be accessed from **https://< rmq-hostname >:< external-client-https-port >**
    <div style={{textAlign: 'center'}}>
 
-  ![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/rabbitmQ_UI.png)
+  ![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/rabbitmQ_UI.png)
 
    </div>
 

@@ -5,7 +5,7 @@ sidebar_position: 5
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/zookeeper.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/zookeeper.png)
 </div>
 </div>
 

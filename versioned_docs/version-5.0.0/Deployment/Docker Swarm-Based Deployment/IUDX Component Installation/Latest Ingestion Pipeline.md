@@ -4,7 +4,7 @@ sidebar_position: 9
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
-![Architecture](https://s3-ap-south-1-docs-resources.s3.ap-south-1.amazonaws.com/IUDX-resources/lip.png)
+![Architecture](https://docs.assets.dataforpublicgood.org.in/IUDX-resources/lip.png)
 </div></div>
 
 + The new latest ingestion pipeline is designed to ingest data asynchronously into Redis Database. This pipeline would enable the IUDX Resource Server to serve latest data for IUDX specified resources that are available in the Database.
